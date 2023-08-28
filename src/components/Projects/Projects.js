@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import colors from "../../Assets/Projects/colors.png";
 import thankyou from "../../Assets/Projects/thankyou.png";
 import tetris from "../../Assets/Projects/tetris.png";
+import snusme from "../../Assets/Projects/snusme.png";
 import cookapp from "../../Assets/Projects/cookapp.png";
 import softpoint from "../../Assets/Projects/softpoint.png";
 import brokernear from "../../Assets/Projects/brokernear.png";
@@ -27,6 +28,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={snusme}
+              isBlog={false}
+              title="SnusME e-commerce"
+              description="E-commerce website template made with MERN Stack."
+              ghLink="https://github.com/white01312/cook-app"
+              demoLink="https://yalandr.github.io/cook-app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cookapp}
@@ -56,7 +68,7 @@ function Projects() {
               title="Panda Tetris"
               description="Multi-page website template made with Javascript."
               ghLink="https://github.com/white01312/JS-Tetris"
-              demoLink="https://yalandr.github.io/JS-Tetris/"              
+              demoLink="https://yalandr.github.io/JS-Tetris/"
             />
           </Col>
 
